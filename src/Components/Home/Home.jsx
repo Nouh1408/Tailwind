@@ -4,24 +4,14 @@ import styles from './Home.module.css'
 
 
 export default function Home() {
-  const [DarkMode, setDarkMode] = useState(false)
-
-  useEffect(toggleMode,[DarkMode])
-
-  function toggleMode(){
-    const htmlElm = document.querySelector("html")
-    if(DarkMode){
-      
-    }
-  }
   return (
-    <section className='p-10'>
+    <section className=" bg-no-repeat border-4 border-double bg-clip-content  p-10 bg-gradient-to-b from-sky-500 via-red-400 to-yellow-200">
+
       
       <a href="#" className="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
   <p className="font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
 </a>
-<button onClick={() => setDarkMode(!DarkMode)}>Toggler</button>
     <div className='bg-red-400 space-y-4 mt-10 p-3'>
         <h2 className='bg-sky-700 '>Lorem, ipsum.</h2>
         <h2 className='bg-sky-700 transition-all hover:duration-1000 delay-100 hover:bg-red-500 hover:transition'>Lorem, ipsum.</h2>
@@ -46,6 +36,9 @@ export default function Home() {
             </>
           ))
         }
+    </div>
+    <div className=' mt-4 bg-clip-text  bg-gradient-to-t from-red-500 to-blue-400 '>
+      <p className='text-4xl text-center text-transparent font-bold'>Lorem ipsum dolor sit amet.</p>
     </div>
 
     </section>
