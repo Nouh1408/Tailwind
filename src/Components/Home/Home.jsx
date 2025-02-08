@@ -37,8 +37,26 @@ export default function Home() {
           ))
         }
     </div>
+    {/* gradient color to text */}
     <div className=' mt-4 bg-clip-text  bg-gradient-to-t from-red-500 to-blue-400 '>
       <p className='text-4xl text-center text-transparent font-bold'>Lorem ipsum dolor sit amet.</p>
+    </div>
+        {/* designinig border */}
+    <div className='p-2 bg-sky-800 text-center rounded-br-3xl'>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <div className='p-2 divide-y-2 divide-dashed bg-sky-300 w-1/2 rounded-br-3xl'>
+      <h1>Ahmed</h1>
+      <h1>Ahmed</h1>
+      <h1>Ahmed</h1>
+      <h1>Ahmed</h1>
+    </div>
+
+    <div className='bg-green-600 flex flex-col w-1/4 p-3 m-2'>
+    <button class="... ring-offset-2 bg-red-600 p-2 ring-2 active: ">Button A</button>
+<button class="... ring-offset-2 p-2 bg-green-500 ring">Button B</button>
+<button class="... ring-offset-2 p-2 bg-blue-500 ring-4">Button C</button>
     </div>
 
     </section>
