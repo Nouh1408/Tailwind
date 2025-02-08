@@ -59,6 +59,22 @@ export default function Home() {
 <button class="... ring-offset-2 p-2 bg-blue-500 ring-4">Button C</button>
     </div>
 
+    <div className="flex flex-wrap">
+  <div className="w-full md:w-1/4">
+  <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+  <div className="w-full md:w-1/4">
+  <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+  <div className="w-full md:w-1/4">
+  <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+  <div className="w-full md:w-1/4">
+  <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+</div>
+
+
     </section>
   )
 }
