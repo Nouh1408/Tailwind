@@ -6,7 +6,10 @@ export default function About() {
   return (
     <>
     <button onClick={() => setIsOk(!isOk)}>chamge</button>
-    <h2 className={`${isOk ? "bg-sky-500 " : "bg-red-600"} text-3xl`}>lorem3</h2>
+    <h2 className={`${isOk ? "bg-sky-500 " : "bg-[aqua]"} text-3xl`}>lorem3</h2> {/* to overright on the tailwind classes // not used so much like inline style */}
+
+    <button className='btn'>Hello</button>
+    <button className='btn bg-red-800'>Hello</button>
     </>
   )
 }
