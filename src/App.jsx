@@ -5,7 +5,7 @@ import About from './Components/About/About'
 
 function App() {
   const router = createBrowserRouter([
-    {path:'',element:<Layout/>,children:[
+    {path:'',element:<Layout />,children:[
       {index:true,element:<Home/>},
       {path:'about',element:<About/>},
     ]},
