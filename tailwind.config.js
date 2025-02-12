@@ -3,13 +3,15 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "../node_modules/flowbite"
   ],
   theme: {
     extend: {},
 
   },
   plugins: [
-    require('@tailwindcss/typography')
+    require('@tailwindcss/typography'),
+    require("flowbite/plugin"),
   ],
 }
 
